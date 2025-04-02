@@ -1,0 +1,22 @@
+body{
+    background: grey;
+}
+
+h1{
+    color: blue;
+}
+ol{
+    background-color:lightgray;
+}
+p{
+    color: white;
+}
+img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+
+}
+div{
+    text-align: center;
+}
