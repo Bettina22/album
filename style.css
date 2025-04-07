@@ -1,22 +1,56 @@
 body{
-    background: grey;
+    background: black;
+    color: white;
 }
 
 h1{
-    color: blue;
+    color:deeppink;
+    text-align: center;
+
 }
-ol{
-    background-color:lightgray;
-}
+
+    
+
 p{
     color: white;
 }
-img{
-    width: 350px;
-    height: 350px;
+.img{
+    width: 200px;
+    height: 200px;
     object-fit: contain;
-
+    overflow-clip-margin: content-box;
+    overflow: clip; 
+    display: flex;     
+    
 }
-div{
-    text-align: center;
+.img{
+    border-style: groove;
+    border-color: deeppink;
+
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+  }
+  
+    
+  
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+  
+.music{
+    border-width: 2cm;
+    border-color: deeppink;
+}
+.titres{
+    border-width: 2cm;
+    border-color: deeppink;
 }
